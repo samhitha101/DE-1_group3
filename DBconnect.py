@@ -10,10 +10,11 @@ client = InsecureClient(hdfs_url, user='hadoop', timeout=60)
 # List of CSV files and corresponding MySQL table names
 hdfs_files = {
     '/home/hadoop/data/nameNode/data/recipe_Images.csv': 'recipe_images',
-    '/home/hadoop/data/nameNode/data/recipe_Info.csv': 'recipe_info',
+    '/home/hadoop/data/nameNode/data/recipes_Info.csv': 'recipe_info',
     '/home/hadoop/data/nameNode/data/recipe_Nutritions.csv': 'recipe_nutritions',
     '/home/hadoop/data/nameNode/data/recipe_Timeline.csv': 'recipe_timeline',
-    '/home/hadoop/data/nameNode/data/youtube_recipe_videos.csv': 'youtube_videos'
+    '/home/hadoop/data/nameNode/data/youtube_recipe_videos.csv': 'youtube_videos',
+    '/home/hadoop/data/nameNode/data/recipe_Cuisine.csv': 'recipe_Cuisine'
 }
 
 # MySQL Database Configuration
